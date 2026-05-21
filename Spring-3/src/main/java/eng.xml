@@ -4,10 +4,10 @@
     xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-   <bean id="service" class="com.service.Service" autowire="byName"></bean>
+   <bean id="service" class="com.service.Service" autowire="byType"></bean>
     
    
-   <bean id="engine" class="com.service.PetrolEngine"></bean>
+   <bean id="petrol" class="com.service.PetrolEngine" primary="true"></bean>
    
    <bean id="diesel" class="com.service.DieselEngine"></bean>
 
