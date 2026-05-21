@@ -4,7 +4,7 @@
     xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-   <bean id="service" class="com.service.Service" autowire="byType"></bean>
+   <bean id="service" class="com.service.Service" autowire="constructor"></bean>
     
    
    <bean id="petrol" class="com.service.PetrolEngine" primary="true"></bean>

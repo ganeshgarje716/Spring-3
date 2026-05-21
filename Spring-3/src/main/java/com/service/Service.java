@@ -6,6 +6,12 @@ public class Service {
 	IEngine eng;
 	
 	
+	public Service(IEngine eng) {
+		
+		this.eng=eng;
+	}
+	
+	
 	public void setEngine(IEngine eng) {
 		
 		this.eng=eng;
